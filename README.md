@@ -14,11 +14,11 @@ A modern full-stack todo application with FastAPI backend and React frontend.
 
 ```
 fastapi_practice/
-├── main.py              # FastAPI backend
-├── models.py             # SQLAlchemy models
-├── schemas.py            # Pydantic schemas
-├── database.py           # Database configuration
-├── requirements.txt      # Python dependencies
+└── backtend/ 
+   ├── main.py              # FastAPI backend
+   ├── models.py             # SQLAlchemy models
+   ├── schemas.py            # Pydantic schemas
+   ├── database.py           # Database configuration
 └── frontend/             # React frontend
     ├── package.json
     ├── public/
@@ -26,6 +26,7 @@ fastapi_practice/
         ├── components/
         ├── services/
         └── App.js
+├── requirements.txt      # Python dependencies
 ```
 
 ## Prerequisites
